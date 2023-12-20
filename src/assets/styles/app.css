@@ -1,0 +1,131 @@
+* {
+  /* removing default margina and padding */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* defining theme color */
+  --primary-color-1: #a16ae8;
+  --primary-color-2: #4120a9;
+  --secondary-color-1: #a1a9fe;
+  --secondary-color-1-500: rgb(209, 213, 255);
+  --secondary-color-1-100: rgb(239, 240, 255);
+  --secondary-color-2: #f6d4d2;
+  --white: #fff;
+  --white-100: #eee;
+  --danger: #f84848;
+}
+
+body {
+  background: linear-gradient(
+    322deg,
+    var(--secondary-color-1) 00%,
+    var(--white) 100%
+  );
+  color: var(--primary-color-1);
+  height: 100vh;
+}
+
+.custom-card {
+  border-radius: 16px;
+  padding: 24px;
+  background: var(--white);
+  box-shadow: 15px 15px 30px var(--secondary-color-1),
+    -15px -15px 30px var(--white);
+}
+
+/* form components */
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: var(--primary-color-1);
+}
+
+.btn-ctm {
+  color: var(--primary-color-1);
+  border-color: var(--primary-color-1);
+  transition: 0.6s ease all;
+}
+
+.container .btn-ctm:hover,
+.container .btn-ctm:active,
+.container .btn-ctm:focus-visible {
+  color: var(--primary-color-2);
+  border-color: var(--primary-color-2);
+  background-color: var(--secondary-color-1-100);
+  box-shadow: none !important;
+}
+
+.container .btn-ctm:active {
+  background-color: var(--secondary-color-1-500);
+}
+
+.container .btn-ctm:disabled {
+  background-color: var(--white-100);
+  color: var(--secondary-color-1);
+  border-color: var(--secondary-color-1);
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.error-message {
+  font-size: 12px;
+  color: var(--danger);
+  position: absolute;
+}
+
+.form-control.input-error {
+  border-color: var(--danger);
+}
+
+.alert {
+  padding: 8px 12px;
+}
+
+/* generic class */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* icons */
+
+.product-header .view-container .icon,
+.icon-ctm {
+  background-color: var(--white);
+  border: 1px solid var(--primary-color-1);
+  padding: 8px;
+  display: flex;
+  border-radius: 6px;
+  transition: 0.6s ease all;
+  cursor: pointer;
+  width: 36px;
+}
+
+.icon-ctm:hover {
+  background-color: var(--primary-color-1);
+  color: var(--white);
+}
+.icon-ctm:active {
+  background-color: var(--primary-color-2);
+  border-color: var(--primary-color-2);
+  color: var(--white);
+}
+.icon-ctm.active {
+  background-color: var(--primary-color-2);
+  border-color: var(--primary-color-2);
+  color: var(--white);
+  cursor: not-allowed;
+}
+
+.icon-ctm.icon-disable,
+.icon-ctm.icon-disable:hover,
+.icon-ctm.icon-disable:active,
+.icon-ctm.icon-disable.active {
+  cursor: not-allowed;
+  color: var(--primary-color-1);
+  border-color: var(--primary-color-1);
+  background-color: var(--white-100);
+}

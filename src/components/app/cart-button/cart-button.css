@@ -1,0 +1,21 @@
+/* cart button */
+
+.cart-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.cart-btn-container .cart-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 62px;
+  gap: 2px;
+  position: relative;
+}
+
+.cart-icon .cart-item {
+  font-size: 12px;
+  line-height: 16px;
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "userID": 1,
+    "name": "John Doe",
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "password": "john@123",
+    "assinedProducts": [
+      1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23, 24
+    ]
+  },
+  {
+    "userID": 2,
+    "name": "Jane Smith",
+    "username": "jane_smith",
+    "email": "jane.smith@example.com",
+    "password": "jane@123",
+    "assinedProducts": [1, 2, 5, 6, 7, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+  },
+  {
+    "userID": 3,
+    "name": "Bob Johnson",
+    "username": "bob_johnson",
+    "email": "bob.johnson@example.com",
+    "password": "bob@123",
+    "assinedProducts": [
+      1, 2, 3, 6, 7, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24
+    ]
+  },
+  {
+    "userID": 4,
+    "name": "Alice Brown",
+    "username": "alice_brown",
+    "email": "alice.brown@example.com",
+    "password": "alice@123",
+    "assinedProducts": [
+      1, 2, 3, 4, 7, 8, 9, 10, 11, 17, 18, 19, 20, 21, 22, 23, 24
+    ]
+  },
+  {
+    "userID": 5,
+    "name": "Charlie White",
+    "username": "charlie_white",
+    "email": "charlie.white@example.com",
+    "password": "charlie@123",
+    "assinedProducts": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22, 23, 24
+    ]
+  },
+  {
+    "userID": 6,
+    "name": "Prashant Chauhan",
+    "username": "prashant_chauhan",
+    "email": "prashant@yopmail.com",
+    "password": "Prashant@123",
+    "assinedProducts": [
+      1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+      23, 24
+    ]
+  }
+]

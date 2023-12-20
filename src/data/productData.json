@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "name": "Luminous Foundation",
+    "make": "Radiant Cosmetics",
+    "rating": 4.5,
+    "price": 29.99,
+    "image": "/images/luminous_foundation.webp",
+    "maxInvetoryCount": " 1"
+  },
+  {
+    "id": 2,
+    "name": "Volumizing Mascara",
+    "make": "Glamorous Beauty",
+    "rating": 4.2,
+    "price": 14.99,
+    "image": "/images/volumizing_mascara.webp",
+    "maxInvetoryCount": " 2"
+  },
+  {
+    "id": 3,
+    "name": "Nourishing Hair Oil",
+    "make": "Silky Locks",
+    "rating": 4.8,
+    "price": 19.99,
+    "image": "/images/hair_oil.jpg",
+    "maxInvetoryCount": " 3"
+  },
+  {
+    "id": 4,
+    "name": "Matte Lipstick",
+    "make": "Chic Cosmetics",
+    "rating": 4.3,
+    "price": 12.99,
+    "image": "/images/matte_lipstick.webp",
+    "maxInvetoryCount": " 4"
+  },
+  {
+    "id": 5,
+    "name": "Revitalizing Face Mask",
+    "make": "Pure Radiance",
+    "rating": 4.7,
+    "price": 24.99,
+    "image": "/images/face_mask.webp",
+    "maxInvetoryCount": " 5"
+  },
+  {
+    "id": 6,
+    "name": "Hydrating Moisturizer",
+    "make": "Dewy Skin",
+    "rating": 4.6,
+    "price": 22.99,
+    "image": "/images/hydrating_moisturizer.webp",
+    "maxInvetoryCount": " 6"
+  },
+  {
+    "id": 7,
+    "name": "Eyeshadow Palette",
+    "make": "ColorPop",
+    "rating": 4.4,
+    "price": 18.99,
+    "image": "/images/eyeshadow_palette.webp",
+    "maxInvetoryCount": " 7"
+  },
+  {
+    "id": 8,
+    "name": "Anti-Aging Serum",
+    "make": "Youthful Glow",
+    "rating": 4.9,
+    "price": 39.99,
+    "image": "/images/anti_aging_serum.webp",
+    "maxInvetoryCount": " 8"
+  },
+  {
+    "id": 9,
+    "name": "Glowing Blush",
+    "make": "Blush Beauty",
+    "rating": 4.2,
+    "price": 15.99,
+    "image": "/images/luminous_foundation.webp",
+    "maxInvetoryCount": " 9"
+  },
+  {
+    "id": 10,
+    "name": "Curl Defining Gel",
+    "make": "Curlicious",
+    "rating": 4.5,
+    "price": 16.99,
+    "image": "/images/volumizing_mascara.webp",
+    "maxInvetoryCount": "10"
+  },
+  {
+    "id": 11,
+    "name": "Refreshing Toner",
+    "make": "Pure Essence",
+    "rating": 4.3,
+    "price": 17.99,
+    "image": "/images/hair_oil.jpg",
+    "maxInvetoryCount": "11"
+  },
+  {
+    "id": 12,
+    "name": "Exfoliating Scrub",
+    "make": "Smooth Skin",
+    "rating": 4.6,
+    "price": 20.99,
+    "image": "/images/matte_lipstick.webp",
+    "maxInvetoryCount": "12"
+  },
+  {
+    "id": 13,
+    "name": "Long-Lasting Nail Polish",
+    "make": "Polish Perfect",
+    "rating": 4.4,
+    "price": 8.99,
+    "image": "/images/face_mask.webp",
+    "maxInvetoryCount": "13"
+  },
+  {
+    "id": 14,
+    "name": "Cleansing Oil",
+    "make": "Gentle Cleanse",
+    "rating": 4.7,
+    "price": 25.99,
+    "image": "/images/hydrating_moisturizer.webp",
+    "maxInvetoryCount": "14"
+  },
+  {
+    "id": 15,
+    "name": "Plumping Lip Gloss",
+    "make": "Plump Pout",
+    "rating": 4.2,
+    "price": 13.99,
+    "image": "/images/eyeshadow_palette.webp",
+    "maxInvetoryCount": "15"
+  },
+  {
+    "id": 16,
+    "name": "Firming Night Cream",
+    "make": "Night Renewal",
+    "rating": 4.8,
+    "price": 29.99,
+    "image": "/images/anti_aging_serum.webp",
+    "maxInvetoryCount": "16"
+  },
+  {
+    "id": 17,
+    "name": "Sunscreen SPF 50",
+    "make": "SunSafe",
+    "rating": 4.5,
+    "price": 21.99,
+    "image": "/images/luminous_foundation.webp",
+    "maxInvetoryCount": "17"
+  },
+  {
+    "id": 18,
+    "name": "Brightening Eye Cream",
+    "make": "Bright Eyes",
+    "rating": 4.3,
+    "price": 26.99,
+    "image": "/images/volumizing_mascara.webp",
+    "maxInvetoryCount": "18"
+  },
+  {
+    "id": 19,
+    "name": "Sculpting Brow Pencil",
+    "make": "BrowMaster",
+    "rating": 4.6,
+    "price": 14.99,
+    "image": "/images/hair_oil.jpg",
+    "maxInvetoryCount": "19"
+  },
+  {
+    "id": 20,
+    "name": "Detoxifying Clay Mask",
+    "make": "Clay Harmony",
+    "rating": 4.4,
+    "price": 19.99,
+    "image": "/images/matte_lipstick.webp",
+    "maxInvetoryCount": "20"
+  },
+  {
+    "id": 21,
+    "name": "Setting Spray",
+    "make": "Lock & Set",
+    "rating": 4.7,
+    "price": 16.99,
+    "image": "/images/face_mask.webp",
+    "maxInvetoryCount": "21"
+  },
+  {
+    "id": 22,
+    "name": "Mood-Enhancing Perfume",
+    "make": "Aromatica",
+    "rating": 4.5,
+    "price": 34.99,
+    "image": "/images/hydrating_moisturizer.webp",
+    "maxInvetoryCount": "22"
+  },
+  {
+    "id": 23,
+    "name": "Radiant Highlighter",
+    "make": "Glow Goddess",
+    "rating": 4.2,
+    "price": 18.99,
+    "image": "/images/eyeshadow_palette.webp",
+    "maxInvetoryCount": "23"
+  },
+  {
+    "id": 24,
+    "name": "Cleansing Micellar Water",
+    "make": "Micelle Cleanse",
+    "rating": 4.9,
+    "price": 22.99,
+    "image": "/images/anti_aging_serum.webp",
+    "maxInvetoryCount": "24"
+  }
+]
