@@ -41,6 +41,7 @@ const CartContextProvider = ({ children }) => {
       value={{
         getCartValue,
         setCartValue,
+        cartData,
       }}
     >
       {children}
