@@ -1,6 +1,8 @@
 import CartButton from "../cart-button/CartButton";
 import ProductRating from "../rating/ProductRating";
 
+import "./product-card-item.css";
+
 const ProductCardItem = ({
   name,
   make,

@@ -1,10 +1,11 @@
 import { BsCartCheckFill } from "react-icons/bs";
 import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
-
-import "./cart-button.css";
 import { useContext, useEffect, useRef, useState } from "react";
 import { cartContext } from "../../../contexts/CartContext";
+
+import "./cart-button.css";
+
 const CartButton = ({ max = 2, productId }) => {
   const { getCartValue, setCartValue } = useContext(cartContext);
   const [cartCount, setCartCount] = useState(getCartValue(productId) || 0);
@@ -32,7 +33,7 @@ const CartButton = ({ max = 2, productId }) => {
       <div
         className={`icon-ctm ${cartCount >= max && "icon-disable"}`}
         onClick={() => {
-          if (cartCount <= max) setCartCount(cartCount + 1);
+          if (cartCount < max) setCartCount(cartCount + 1);
         }}
       >
         <FaPlus />

@@ -1,0 +1,28 @@
+.custom-card.product-card {
+  width: 300px;
+}
+.product-card .img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.product-card .img img {
+  height: 132px;
+  margin: auto;
+  border-radius: 12px;
+}
+.product-card .name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 14px;
+  margin-bottom: 4px;
+}
+.product-card .make {
+  font-size: 16px;
+  line-height: 14px;
+}
+.product-card .price {
+  color: var(--primary-color-2);
+  font-weight: bold;
+  font-size: 22px;
+}
