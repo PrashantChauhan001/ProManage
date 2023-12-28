@@ -2,6 +2,7 @@ import { ErrorMessage, Field, Form, Formik } from "formik";
 import {
   ALERT_VARIENT,
   APP_ROUTE,
+  BASE_URL_PREFIX,
   LS_KEYS,
   loginInitialValues,
 } from "../utils/constants.utils";
@@ -39,7 +40,7 @@ const Login = () => {
       <div className="h-100 d-flex align-items-center justify-content-center">
         <div className="custom-card login-card">
           <div className="card-header">
-            <img src="/logo.png" alt="ProManage" />
+            <img src={BASE_URL_PREFIX + "/logo.png"} alt="ProManage" />
             <h4 className="text-center m-1">Manage Products Smoothly!</h4>
           </div>
           <CloseAlert

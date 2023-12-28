@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import { APP_ROUTE } from "../../../utils/constants.utils";
+import { APP_ROUTE, BASE_URL_PREFIX } from "../../../utils/constants.utils";
 import "./auth-header.css";
 import { useContext } from "react";
 import { userContext } from "../../../contexts/UserContext";
@@ -12,7 +12,11 @@ const AuthHeader = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <Link className="navbar-brand p-0" to={APP_ROUTE.BASE}>
-            <img src="/logo.png" alt="ProManage" height={38} />
+            <img
+              src={BASE_URL_PREFIX + "/logo.png"}
+              alt="ProManage"
+              height={38}
+            />
           </Link>
           <button
             className="navbar-toggler"

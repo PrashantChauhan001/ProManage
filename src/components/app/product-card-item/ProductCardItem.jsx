@@ -1,3 +1,4 @@
+import { BASE_URL_PREFIX } from "../../../utils/constants.utils";
 import CartButton from "../cart-button/CartButton";
 import ProductRating from "../rating/ProductRating";
 
@@ -15,7 +16,7 @@ const ProductCardItem = ({
   return (
     <div className="product-card custom-card">
       <div className="img">
-        <img src={image} alt="Product Image" />
+        <img src={BASE_URL_PREFIX + image} alt="Product Image" />
       </div>
       <div className="product-info mb-3">
         <div className="name">{name}</div>

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://PrashantChauhan001.github.io/ProManage/",
+  "homepage": "https://prashantchauhan001.github.io/pro-manage/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

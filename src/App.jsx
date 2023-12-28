@@ -27,13 +27,13 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
-      <Route path="/" element={<AuthWrapper />}>
+      <Route path={APP_ROUTE.LOGIN} element={<Login />} />
+      <Route path={APP_ROUTE.BASE} element={<AuthWrapper />}>
         <Route index element={<Home />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/loader" element={<PageLoader />} />
+        <Route path={APP_ROUTE.PRODUCTS} element={<Products />} />
+        <Route path={APP_ROUTE.CART} element={<Cart />} />
       </Route>
+      <Route path="*" Component={() => navigate(APP_ROUTE.BASE)}></Route>
     </Routes>
   );
 }
