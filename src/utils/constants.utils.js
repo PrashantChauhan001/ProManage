@@ -50,4 +50,4 @@ export const ALERT_VARIENT = {
 
 export const DELAY_MS = 3000;
 
-export const BASE_URL_PREFIX = "/pro-manage";
+export const BASE_URL_PREFIX = "/ProManage";
